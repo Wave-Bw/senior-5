@@ -10361,7 +10361,7 @@ goTop.go($('.go-top'))
 
         Carousel.prototype = {
             init: function(){
-                this.imgWidth = $(window).width();       
+                this.imgWidth = $("#header .carousel img").width();       
                 this.imgNum = this.$imgCtLi.length;
                 this.curIdx = 0;
                 this.animate = false;
@@ -10404,7 +10404,6 @@ goTop.go($('.go-top'))
             },
 
             play: function(index){
-              //  console.log(index);
                 var _this = this;
                 if(this.curIdx === index || this.animate){
                     return;
@@ -10525,7 +10524,7 @@ goTop.go($('.go-top'))
         })
 
         _this.$ct.on('click', function () {
-          $('body').animate({scrollTop: "0px"}, 1500)
+          $('html,body').animate({scrollTop: "0px"}, 1500)
         })
       }
     }
@@ -10538,9 +10537,6 @@ goTop.go($('.go-top'))
   })()
 
   module.exports = goTop
-
-
-
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ })

@@ -17,7 +17,7 @@
 
         Carousel.prototype = {
             init: function(){
-                this.imgWidth = $(window).width();       
+                this.imgWidth = $("#header .carousel img").width();       
                 this.imgNum = this.$imgCtLi.length;
                 this.curIdx = 0;
                 this.animate = false;

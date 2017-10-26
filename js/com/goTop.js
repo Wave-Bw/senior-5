@@ -25,7 +25,7 @@
         })
 
         _this.$ct.on('click', function () {
-          $('body').animate({scrollTop: "0px"}, 1500)
+          $('html,body').animate({scrollTop: "0px"}, 1500)
         })
       }
     }
@@ -38,5 +38,3 @@
   })()
 
   module.exports = goTop
-
-

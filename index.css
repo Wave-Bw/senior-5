@@ -32,7 +32,7 @@
 }
 
 h1, h2, h3, h4 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 + p{
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* nav style start*/
@@ -101,7 +101,6 @@ h3 {
 }
 
 #header .carousel .img-ct {
-  width: 9500px;
   position: absolute;
 }
 
@@ -111,34 +110,6 @@ h3 {
 
 #header .img-ct > li {
   float: left;
-}
-
-#header .carousel .arrow {
-  display: block;
-  width: 80px;
-  height: 80px;
-  line-height: 68px;
-  text-align: center;
-  color: white;
-  font-size: 80px;
-  position: absolute;
-  top: 50%;
-  margin-top: -50px;
-  z-index: 2;
-  opacity: 0.8;
-  border-radius: 5px;
-}
-
-#header .carousel .btn-pre {
-  left: 100px;
-}
-#header .carousel .btn-next {
-  right: 100px;
-}
-
-#header .arrow:hover {
-  opacity: 1;
-  background-color: #fed136;
 }
 
 #header .bullet > li{
@@ -205,11 +176,12 @@ h3 {
 }
 
 #actor ol img {
+  width: 280px;
   border: 10px solid #f1f1f1;
   border-radius: 50%;
   position: relative;
   left: 50%;
-  margin-left: -160px;
+  margin-left: -140px;
 }
 
 #actor ol li {
@@ -230,7 +202,7 @@ h3 {
 }
 
 #actor p {
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
 }
 
